@@ -1,0 +1,5 @@
+ng add angular-cli-ghpages
+
+ng build --base-href "https://ran1-987.github.io/angular-shopping-cart"
+
+npx angular-cli-ghpages --dir=dist
