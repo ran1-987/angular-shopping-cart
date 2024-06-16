@@ -1,0 +1,33 @@
+.carousel-control-next {
+  opacity: 0;
+}
+.carousel-control-next:hover {
+  opacity: 0;
+}
+.carousel-control-prev:hover {
+  opacity: 0;
+}
+.carousel-control-prev {
+  opacity: 0;
+}
+.carousel-indicators {
+  opacity: 0;
+}
+.carousel-container {
+  width: 100%; /* Specify the desired width */
+  height: 300px; /* Specify the desired height */
+  // overflow: hidden; /* Ensures any overflowing content is hidden */
+}
+
+.carousel-container ngb-carousel,
+.carousel-container .carousel-inner,
+.carousel-container .carousel-item {
+  height: 100%; /* Ensures the carousel items fill the container */
+}
+
+.carousel-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ensures the images cover the container, maintaining aspect ratio */
+  object-position: center; /* Centers the image within the container */
+}
