@@ -5,7 +5,8 @@ services:
     plan: free
     buildCommand: npm install && npm run build:prod
     startCommand: npx ng serve --host 0.0.0.0 --port 10000
-    runtime: node 14
     envVars:
+      - key: NODE_VERSION
+        value: 14.20.0
       - key: NODE_OPTIONS
         value: --max_old_space_size=4096
